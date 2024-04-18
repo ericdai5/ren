@@ -11,8 +11,8 @@ export default function Home() {
 
         <div className="text-4xl font-light text-center leading-tight">
           <p>
-            Ren is a design and technology studio imagining and making
-            delightful interface experiences.
+            Ren is a design and technology studio making delightful interface
+            experiences.
           </p>
         </div>
 
