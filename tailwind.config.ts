@@ -57,6 +57,7 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "custom-oval": "600px / 120px",
       },
       keyframes: {
         "accordion-down": {
@@ -71,6 +72,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      scale: {
+        "2000": "20",
       },
     },
   },
