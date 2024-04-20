@@ -18,13 +18,18 @@ export default function Home() {
 
         <div className="flex flex-row font-light justify-center text-3xl text-center">
           <div className="group w-40 space-y-4 flex flex-col items-center">
-            <Link href={`mailto:ericdai@sas.upenn.edu`}>Contact</Link>
-            <div className="transition duration-300 ease-in-out w-[5px] h-[1px] bg-white group-hover:block group-hover:scale-[20] group-hover:bg-black rounded-custom-oval "></div>
+            <Link
+              className="hover:underline italic"
+              href={`mailto:ericdai@sas.upenn.edu`}
+            >
+              Contact
+            </Link>
+            {/* <div className="transition duration-300 ease-in-out w-[5px] h-[1px] bg-white group-hover:block group-hover:scale-[20] group-hover:bg-black rounded-custom-oval "></div> */}
           </div>
 
           <div className="group w-40 space-y-4 flex flex-col items-center">
-            <p>Work</p>
-            <div className="transition duration-300 ease-in-out w-[5px] h-[1px] bg-white group-hover:block group-hover:scale-[20] group-hover:bg-black rounded-custom-oval "></div>
+            <p className="hover:underline italic">Work</p>
+            {/* <div className="transition duration-300 ease-in-out w-[5px] h-[1px] bg-white group-hover:block group-hover:scale-[20] group-hover:bg-black rounded-custom-oval "></div> */}
           </div>
         </div>
       </div>
