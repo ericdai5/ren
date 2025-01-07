@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <div className="group w-40 space-y-4 flex flex-col items-center">
-            <p className="hover:underline italic">Work</p>
+            <p className="hover:underline italic">Work 🚧</p>
             {/* <div className="transition duration-300 ease-in-out w-[5px] h-[1px] bg-white group-hover:block group-hover:scale-[20] group-hover:bg-black rounded-custom-oval "></div> */}
           </div>
         </div>
